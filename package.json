@@ -6,7 +6,8 @@
     "npm-tree": "lib/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "cover": "tap test/*.test.js --cov --coverage-report=lcov",
+    "test": "tap test/*.test.js --cov --timeout=60",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Remy Sharp",
@@ -20,6 +21,7 @@
     "url": "https://github.com/remy/npm-tree.git"
   },
   "devDependencies": {
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
+    "tap": "^5.1.1"
   }
 }
