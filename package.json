@@ -1,0 +1,25 @@
+{
+  "name": "@remy/npm-tree",
+  "description": "Takes the dep tree in JSON form, and echos out a tree akin to `npm ls`",
+  "main": "lib/archy.js",
+  "bin": {
+    "npm-tree": "lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "dependencies": {
+    "ansicolors": "^0.3.2",
+    "archy": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remy/npm-tree.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  }
+}
