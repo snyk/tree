@@ -1,5 +1,5 @@
 {
-  "name": "@remy/npm-tree",
+  "name": "snyk-tree",
   "description": "Takes the dep tree in JSON form, and echos out a tree akin to `npm ls`",
   "main": "lib/archy.js",
   "bin": {
@@ -11,13 +11,13 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Remy Sharp",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "archy": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remy/npm-tree.git"
+    "url": "https://github.com/Snyk/tree.git"
   },
   "devDependencies": {
     "semantic-release": "^4.3.5",
