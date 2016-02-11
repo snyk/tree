@@ -13,7 +13,6 @@
   "author": "Remy Sharp",
   "license": "MIT",
   "dependencies": {
-    "ansicolors": "^0.3.2",
     "archy": "^1.0.0"
   },
   "repository": {
